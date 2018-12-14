@@ -1,0 +1,366 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left{
+  text-align: left;
+  padding: 0;
+  margin: auto;
+  color: rgba(255,255,255,0.8);
+}
+
+.heart{
+  padding: 15px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0px 0;
+  text-align: center;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  padding-bottom: 10px;
+}
+
+.cabecalho{
+  background-color: rgb(32, 101, 136);
+  background-image: url(./img/city-scape.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: block;
+  background-size: 100% 100%;
+  padding-top: 0;
+  line-height: 1.15;
+  color:white;
+  height: 390px;
+  weight: 150px;
+  float: right;
+}
+
+.logo{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo img{
+  float: left;
+  height: 40px;
+  width: 100px;
+  padding: 8px 4px 0 12px;
+}
+
+.search-container{
+  float: left;
+}
+.search-container input{
+  background-color:rgb(31, 82, 111);
+  padding: 8px;
+  width: 1000px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container .lupa{
+  float: right;
+  padding: 17.5px 17.5px 17px 17.5px;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 4px;
+  background-color:rgb(31, 82, 111);
+  background-image: url(./img/lupa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45%;
+  border: none;
+  cursor: pointer;
+}
+
+.log-in{
+  float: left;
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.log-in span{
+  float: left;
+  color: white;
+}
+
+.log-in a{
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 0 2px;
+}
+
+.logo .bear{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.cabecalho-text{
+  margin: 0 auto;
+  padding: 50px 650px 100px 190px;
+}
+
+.cabecalho-text .titulo{
+display: block;
+font-size: 2em;
+padding-top: 1rem;
+padding-bottom: 1rem;
+font-weight: 200;
+box-sizing: border-box;
+line-height: 1.15;
+}
+
+.cabecalho .cabecalho-paragrafo{
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.cabecalho-text button{
+  background-color: rgb(240, 146, 51);
+  outline: none;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 7px 18px 8px 18px;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  line-height: 1.35;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.cabecalho-text button a{
+text-decoration: none;
+color: white;
+}
+
+.content{
+  color:white;
+  background-color: rgb(39, 53, 71);
+  box-sizing: border-box;
+  display: block;
+  height: 500px;
+}
+
+.content-box{
+  margin-left: 208px;
+  margin-right: 208px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 300px;
+}
+
+.content-time{
+  height: 400px;
+  width: 488px;
+  text-align: center;
+  padding: 0 32px;
+  float: left;
+}
+
+.content-titulo{
+  width: 317px;
+  padding-left: 64px;
+  float: left;
+}
+
+.content-titulo h2{
+  letter-spacing: 0em;
+  font-size: 25px;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+.content-titulo li{
+  letter-spacing: 0em;
+  font-size: 12px;
+  margin-top: 1px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.content-button button{
+  background-color: rgb(203, 56, 55);
+  font-weight: 300;
+  border-radius: 20px;
+  padding: 3px 16px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  line-height: 1.35;
+  margin: 10px 58px 0 58px;
+}
+
+.content-button a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.content-button p{
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0 0 0 615px;
+  margin-top: 0;
+}
+
+.sobre-nos{
+  background-image: url(./img/forklift.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: block;
+  background-size: cover;
+  padding: 110px 0;
+  line-height: 1.15;
+  color:white;
+  height: 505px;
+}
+
+.npm{
+  margin: 0 115px;
+}
+
+.npm-text{
+  padding: 8px;
+  line-height: 18.4px;
+  margin-right: 735px;
+}
+
+.npm-text h2{
+  font-size: 38px;
+  padding-top: 8px;
+  padding-bottom: 18px;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+.npm-text p{
+  font-weight: 300;
+  font-size: 17.6px;
+  line-height: 19px;
+  margin: 15px 0 16px 0;
+}
+
+.npm-text button{
+  background-color: rgb(49, 68, 88);
+  display: inline-block;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 8px 40px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.35;
+  border-radius: 20px;
+}
+
+.npm-text button a{
+  color: white;
+  text-decoration: none;
+}
+
+.servicos{
+  padding: 0 16px;
+  margin: 32px 208px;
+  box-sizing: border-box;
+  display: block;
+  line-height: 1.15;
+  height: 500px;
+}
+
+.servicos-text{
+  margin: 0 auto;
+}
+
+.servicos-text h2{
+  color: rgb(83, 88, 98);
+  font-size: 30px;
+  margin: 30px 0;
+  padding: 16px 0 4px 0;
+  font-weight: 300;
+  line-height: 1.15;
+  text-align: center;
+  display: block;
+}
+
+.servicos-text p{
+  text-align: center;
+  font-weight: 300;
+  color: rgb(135, 145, 156);
+  padding-bottom: 32px;
+  display: block;
+  margin: 16px 0; 
+}
+
+.servicos-itens{
+  box-sizing: border-box;
+  display: block;
+  padding: 0 8px;
+}
+
+.servico-item{
+  float: left;
+  width: 33.33333%;
+  height: 300px;
+  padding: 0;
+  line-height: 18px;
+  text-align: center;
+  background-color: white;
+}
+
+.servico-item h3{
+  color: rgb(83, 88, 98);
+  font-size: 20px;
+  padding: 10px;
+}
+
+.servico-item p{
+  color: rgb(135, 145, 156);
+  font-size: 12.6px;
+  padding: 0 40px;
+}
+
+.servico-item a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+.clearfix{
+  clear: both;
+}
